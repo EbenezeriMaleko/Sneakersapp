@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:sneakersapp/pages/home_page.dart';
 
 class IntroPage extends StatelessWidget {
@@ -55,7 +54,7 @@ class IntroPage extends StatelessWidget {
                 onTap: () => Navigator.push(
                   context, 
                   MaterialPageRoute(
-                    builder: (context)=> HomePage(),
+                    builder: (context)=>  const HomePage(),
                   ),
                 ),
                 child: Container(
